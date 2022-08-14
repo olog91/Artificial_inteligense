@@ -206,6 +206,9 @@ header {
   
   margin: 0;
 
-  /* list-style-image: url(../images/ptichka.svg); */
+  
 }
 
+ul>li {
+  list-style-image: url(./assets/img/images/ptichka.svg);
+}
