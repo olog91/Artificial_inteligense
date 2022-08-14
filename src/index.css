@@ -11,3 +11,201 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  font-size: 20px;
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Architects Daughter', cursive;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+.container {
+  background-color: black;
+  max-width: 1150px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* class nomber two */
+
+.btn {  
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-size: 52px;
+  font-family: 'Inter';
+  font-weight: 800;
+}
+
+h3 {
+  color: #FFFFFF;
+
+}
+
+p {
+  font-family: 'Inter';
+  font-weight: 400;
+  color: #9BA9B4;
+  letter-spacing: -0.25px;
+}
+
+hr {
+  margin: 0 80px;
+
+}
+
+/* header ------------------------ */
+
+header {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.header-docs {
+  font-size: 16px;
+}
+
+.sing-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sing-up-b {
+  margin-left: 50px;
+  width: 96px;
+  height: 40px;
+  background-color: #5D5DFF;
+}
+
+/* inner */
+
+.inner {
+  text-align: center;
+}
+
+.inner__b-start {
+  height: 48px;
+  width: 168px;
+  background-color: #5D5DFF;
+}
+
+.inner__b-start:hover {
+  background-color: #33363A;
+}
+
+.inner__b-learn {
+  height: 48px;
+  width: 150px;
+  background-color: #33363A;
+}
+
+.inner__b-learn:hover {
+  background-color: #5D5DFF;
+}
+
+.inner__video {
+  margin-top: 64px;
+  margin-bottom: 128px;
+}
+
+/* osnova----------------- */
+
+.osnova {
+  text-align: center;
+  font-family: 'Inter';
+}
+
+.osnova>h2 {
+  font-weight: 800;
+  font-size: 40px;
+  letter-spacing: -0.5px;
+  margin: 0;
+}
+
+.osnova>p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 80px;
+}
+
+.osnova__top>button {
+  background-color: black;
+  margin: 0 60px;
+  margin-bottom: 60px;
+}
+
+.osnova__down>button {
+  background-color: black;
+  margin: 0 60px;
+  margin-bottom: 60px;
+
+}
+
+/* one-product-------------------- */
+
+.one-product {
+  text-align: center;
+}
+
+.one-product__projects-top {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  align-items: center;
+}
+
+.one-product__projects-text>h4 {
+  font-family: 'Architects Daughter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.25px;
+  color: #5D5DFF;
+
+  margin: 0;
+}
+
+.one-product__projects-text>h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: -0.25px;
+  color: #D9E3EA;
+
+  margin: 0;
+}
+
+.one-product__projects-text>p,ul>li {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.25px;
+  color: #9BA9B4;
+  
+  margin: 0;
+
+  /* list-style-image: url(../images/ptichka.svg); */
+}
+

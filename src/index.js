@@ -5,11 +5,18 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import Slogan from './assets/header';
+import Inner from './assets/inner';
+import Osnove from './assets/osnova';
+import Product from './assets/product';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Slogan />
+    <Inner />
+    <Osnove />
+    <Product />
   </React.StrictMode>
 );
 
